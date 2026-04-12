@@ -9,17 +9,17 @@ class Program
         {
             try
             {
-                Console.Write("\nFirst number");
+                Console.Write(Environment.NewLine + "First num");
                 string input = Console.ReadLine();
                 if (input.ToLower() == "q") break;
                 double a = Convert.ToDouble(input);
 
-                Console.Write(Environment.NewLine + "Second number");
+                Console.Write(Environment.NewLine + "Second num");
                 input = Console.ReadLine();
                 if (input.ToLower() == "q") break;
                 double b = Convert.ToDouble(input);
 
-                Console.Write(Environment.NewLine + "Operation");
+                Console.Write(Environment.NewLine + "Oper");
                 string op = Console.ReadLine();
                 if (op.ToLower() == "q") break;
 
