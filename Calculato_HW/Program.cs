@@ -9,7 +9,7 @@ class Program
         {
             try
             {
-                Console.Write(Environment.NewLine + "First number");
+                Console.Write("\nFirst number");
                 string input = Console.ReadLine();
                 if (input.ToLower() == "q") break;
                 double a = Convert.ToDouble(input);
