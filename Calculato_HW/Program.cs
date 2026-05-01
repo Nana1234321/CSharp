@@ -14,14 +14,14 @@ class Program
                 if (input.ToLower() == "q") break;
                 double a = Convert.ToDouble(input);
 
-                Console.Write("Second number");
+                Console.Write(Environment.NewLine + "Second number");
                 input = Console.ReadLine();
                 if (input.ToLower() == "q") break;
                 double b = Convert.ToDouble(input);
 
-                Console.Write("Operation");
+                Console.Write(Environment.NewLine + "Operation");
                 string op = Console.ReadLine();
-                if (input.ToLower() == "q") break;
+                if (op.ToLower() == "q") break;
 
                 double res = 0;
                 switch (op)
